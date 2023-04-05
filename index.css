@@ -1,0 +1,132 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+
+.paragraf1 {
+    background-color: #DDB9A3;
+    color: white;
+  }
+
+  .fonttype {
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+  }  
+
+  menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 999;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin: 0px 50px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .menu li:nth-child(1) {
+    background-color:#FF764E;
+   
+  }
+  
+  .menu li:nth-child(2) {
+    background-color:#5ED3EB;
+    
+  }
+  
+  .menu li:nth-child(3) {
+    background-color:#FFCD69;
+  }
+    .container {
+        display: grid;
+        grid-template-rows: auto;
+        place-items: center;
+        height: 100vh; /* sayfanın yüksekliği kadar yükseklik ayarladık */
+      }
+      
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+      }
+      
+      p {
+        font-style: italic;
+        color: #666;
+        margin-top: 10px;
+        text-align: center;
+      }
+      figcaption {
+        word-wrap: wrap;
+        font-style: italic;
+        color: #666;
+        margin-top: 10px;
+        text-align: center;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  figcaption {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  
+  
+  .menu a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  
+  
